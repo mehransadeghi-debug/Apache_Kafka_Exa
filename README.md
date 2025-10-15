@@ -14,3 +14,16 @@ Partition: Partition is sequence of records within a topic, stored on brokers an
 Segment: A segment is a physical file within a partition where Kafka stores messages, rolling over based on size or time (max 1 gb for 1 ).
 Offset: A unique identifier for each record within a partition, used to track consumer progress. So that consumer can resume.
 😘😘
+In kafka, we had many items about all concepts
+😁😁
+In Kafka, there are three types of clusters:
+    Single node: Single broker
+    Single node: Multiple Broker
+    Multiple node: Multiple Broker
+There are three ways to deliver messages:
+    Never redelivered: The messages may be lost
+    May be redelivered: The messages are never lost
+    Delivered once: The message is delivered exactly once
+There are two types of log compaction:
+   Coarse grained: By time
+   Finer grained: By message
